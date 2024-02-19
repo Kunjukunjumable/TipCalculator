@@ -17,6 +17,7 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 
 
 ## Overview
+This is a tip calculating app which gives Total Amount and Tip per person given the Total Bill Amount, Tip Percentage and also the number of people.
 
 ### The challenge
 
@@ -77,7 +78,7 @@ To see how you can add code snippets, see below:
        
         </div>      
 ```
-```css
+```css : Responsive UI depending upon the screen size 
 @media (max-width: 800px) {
 
     #container-input{
@@ -94,7 +95,7 @@ To see how you can add code snippets, see below:
     }
 }
 ```
-```js
+```js : Applied React.js functional components. Made us of React Conetxt API to store data. Incorporated React redux as the central store for data
 const setNumOfPerson = (event) =>{
         if(event.target.value.length<=10){
 
